@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "stack": "Stack",
+    "contact": "Contact"
+  },
+  "hero": {
+    "chip": "Available for projects · Villa María, Argentina",
+    "heading_1": "Felipe /",
+    "heading_2": "Ballarino",
+    "subtitle": "Frontend Developer specialized in React & Next.js, microfrontends, AI and own SaaS projects",
+    "cta_primary": "Let's talk →",
+    "cta_secondary": "View experience",
+    "stat_1_value": "5+",
+    "stat_1_label": "years of experience",
+    "stat_2_value": "15+",
+    "stat_2_label": "projects in production",
+    "stat_3_value": "1",
+    "stat_3_label": "library on NPM",
+    "scroll_hint": "Scroll"
+  },
+  "about": {
+    "label": "About me",
+    "title": "Frontend developer focused on product and architecture",
+    "p1": "I'm the sole frontend dev at IRSA, one of the largest business groups in Argentina, where I work side by side with the backend team building the UI ecosystem end-to-end.",
+    "p2": "I'm leading the migration to microfrontends with Webpack Module Federation — a continuously evolving process learning alongside the team. I also built a real-time security app with WebSockets in collaboration with backend, with a national rollout across 100+ shopping mall stores.",
+    "p3": "In parallel, I develop my own projects integrating Claude API, FastAPI + PostgreSQL and multi-step AI agents, exploring the potential of artificial intelligence in modern web products.",
+    "skills_title": "Expertise level"
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Professional journey",
+    "jobs": [
+      {
+        "title": "Frontend Developer",
+        "company": "IRSA · Grupo IRSA",
+        "period": "2023 – Present",
+        "bullets": [
+          "Sole frontend dev, responsible end-to-end for the UI ecosystem",
+          "Microfrontend architecture with Webpack Module Federation, ongoing process with the backend team",
+          "Published irsa-component-ui on NPM (~10 components), adopted across multiple teams",
+          "Real-time security app with WebSockets — national rollout in shopping malls, 100+ stores",
+          "Web portals: Museo de los Niños, Tax Portal, Tenant Portal"
+        ]
+      },
+      {
+        "title": "Freelance Frontend Developer",
+        "company": "Independent",
+        "period": "2023 – Present",
+        "bullets": [
+          "Own SaaS projects: ClienteVivo, Óptica Morea, Accounting CRM",
+          "Claude API integration and multi-step AI agents",
+          "Stack: React, Next.js, FastAPI, PostgreSQL, Supabase"
+        ]
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Custer",
+        "period": "2021 – 2023",
+        "bullets": [
+          "Led end-to-end development of 15+ projects for real clients",
+          "Stack: React, Next.js, Node.js, Firebase, MongoDB",
+          "Coordination with design and marketing teams"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Selected work",
+    "visit": "View project →",
+    "items": [
+      {
+        "description": "Website for an optical store in Villa María. Eyeglasses, contact lenses and visual therapy. Deployed on Vercel."
+      },
+      {
+        "description": "Boutique hotel between mountains, valley and river. Landing page with immersive visual experience and elegant design."
+      },
+      {
+        "description": "Institutional website for a medical clinic. Specialties, medical coverage and online appointment system."
+      },
+      {
+        "description": "Website for a hardware distributor. Complete product catalog and professional online presence."
+      },
+      {
+        "description": "Website for a distributor. Optimized digital presence and updatable product catalog."
+      },
+      {
+        "description": "Online catalog for a party supplies store. Nationwide shipping and personalized customer service."
+      }
+    ]
+  },
+  "stack": {
+    "label": "Stack",
+    "title": "Technologies I use"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's work together?",
+    "subtitle": "Available for freelance, remote positions and frontend + AI consulting",
+    "gmail_label": "Email",
+    "linkedin_label": "LinkedIn",
+    "github_label": "GitHub",
+    "portfolio_label": "Current portfolio",
+    "whatsapp_label": "WhatsApp"
+  }
+}

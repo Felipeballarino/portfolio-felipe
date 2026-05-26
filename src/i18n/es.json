@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "stack": "Stack",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "chip": "Disponible para proyectos · Villa María, Argentina",
+    "heading_1": "Felipe /",
+    "heading_2": "Ballarino",
+    "subtitle": "Frontend Developer especializado en React & Next.js, microfrontends, IA y proyectos SaaS propios",
+    "cta_primary": "Hablemos →",
+    "cta_secondary": "Ver experiencia",
+    "stat_1_value": "5+",
+    "stat_1_label": "años de experiencia",
+    "stat_2_value": "15+",
+    "stat_2_label": "proyectos en producción",
+    "stat_3_value": "1",
+    "stat_3_label": "librería en NPM",
+    "scroll_hint": "Scroll"
+  },
+  "about": {
+    "label": "Sobre mí",
+    "title": "Desarrollador frontend con foco en producto y arquitectura",
+    "p1": "Soy el único dev frontend en IRSA, uno de los grupos empresariales más grandes de Argentina, donde trabajo codo a codo con el equipo de backend construyendo el ecosistema UI de extremo a extremo.",
+    "p2": "Estoy liderando la migración a microfrontends con Webpack Module Federation — un proceso en constante evolución y aprendizaje junto al equipo. Además, construí una app de seguridad real-time con WebSockets en colaboración con backend, con rollout nacional en shoppings de más de 100 locales.",
+    "p3": "En paralelo, desarrollo proyectos propios integrando Claude API, FastAPI + PostgreSQL y agentes de IA multi-step, explorando el potencial de la inteligencia artificial en productos web modernos.",
+    "skills_title": "Nivel de expertise"
+  },
+  "experience": {
+    "label": "Experiencia",
+    "title": "Trayectoria profesional",
+    "jobs": [
+      {
+        "title": "Frontend Developer",
+        "company": "IRSA · Grupo IRSA",
+        "period": "2023 – Presente",
+        "bullets": [
+          "Único dev frontend, responsable end-to-end del ecosistema UI",
+          "Arquitectura microfrontends con Webpack Module Federation, proceso vivo junto al equipo de back",
+          "Publiqué irsa-component-ui en NPM (~10 componentes), adoptada transversalmente",
+          "App de seguridad real-time con WebSockets — rollout nacional en shoppings, +100 locales",
+          "Portales web: Museo de los Niños, Portal de Impuestos, Portal de Locatarios"
+        ]
+      },
+      {
+        "title": "Freelance Frontend Developer",
+        "company": "Independiente",
+        "period": "2023 – Presente",
+        "bullets": [
+          "Proyectos SaaS propios: ClienteVivo, Óptica Morea, CRM Contable",
+          "Integración de Claude API y agentes de IA multi-step",
+          "Stack: React, Next.js, FastAPI, PostgreSQL, Supabase"
+        ]
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Custer",
+        "period": "2021 – 2023",
+        "bullets": [
+          "Lideré desarrollo end-to-end de 15+ proyectos para clientes reales",
+          "Stack: React, Next.js, Node.js, Firebase, MongoDB",
+          "Coordinación con equipos de diseño y marketing"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Proyectos",
+    "title": "Trabajo seleccionado",
+    "visit": "Ver proyecto →",
+    "items": [
+      {
+        "description": "Sitio web para óptica en Villa María. Anteojos, lentes de contacto y terapia visual. Desplegado en Vercel."
+      },
+      {
+        "description": "Hotel boutique entre montañas, valle y río. Landing con experiencia visual inmersiva y diseño elegante."
+      },
+      {
+        "description": "Sitio institucional para clínica médica. Especialidades, coberturas médicas y sistema de turnos online."
+      },
+      {
+        "description": "Sitio para distribuidora y ferretería. Catálogo completo de productos y presencia online profesional."
+      },
+      {
+        "description": "Sitio web para distribuidora. Presencia digital optimizada y catálogo de productos actualizable."
+      },
+      {
+        "description": "Catálogo online para cotillería. Envíos a todo el país y atención personalizada al cliente."
+      }
+    ]
+  },
+  "stack": {
+    "label": "Stack",
+    "title": "Tecnologías que uso"
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "¿Trabajamos juntos?",
+    "subtitle": "Disponible para freelance, posiciones remote y consultoría en frontend + IA",
+    "gmail_label": "Correo",
+    "linkedin_label": "LinkedIn",
+    "github_label": "GitHub",
+    "portfolio_label": "Portfolio actual",
+    "whatsapp_label": "WhatsApp"
+  }
+}
