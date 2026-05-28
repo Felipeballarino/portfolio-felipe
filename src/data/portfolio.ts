@@ -95,16 +95,16 @@ export const skills: SkillItem[] = [
   { name: 'React / Next.js', percent: 95 },
   { name: 'TypeScript', percent: 88 },
   { name: 'Claude API', percent: 80 },
-  { name: 'Node.js', percent: 75 },
-  { name: 'FastAPI', percent: 65 },
-  { name: 'PostgreSQL', percent: 60 },
+  { name: 'Node.js', percent: 60 },
+  { name: 'FastAPI', percent: 50 },
+  { name: 'PostgreSQL', percent: 40 },
 ]
 
 export const stackItems: StackItem[] = [
   { name: 'React', abbr: 'Re', featured: true, color: '#61DAFB', bg: '#20232A' },
   { name: 'Next.js', abbr: '▲', featured: true, color: '#ffffff', bg: '#000000' },
   { name: 'TypeScript', abbr: 'TS', featured: true, color: '#ffffff', bg: '#3178C6' },
-  { name: 'Claude API', abbr: 'AI', featured: true, color: '#D4A547', bg: '#1a1118' },
+  { name: 'Claude API', abbr: 'AI', featured: true, color: '#c87700', bg: '#1a1118' },
   { name: 'JavaScript', abbr: 'JS', featured: false, color: '#000000', bg: '#F7DF1E' },
   { name: 'Tailwind', abbr: 'Tw', featured: false, color: '#ffffff', bg: '#06B6D4' },
   { name: 'Node.js', abbr: 'No', featured: false, color: '#ffffff', bg: '#339933' },
