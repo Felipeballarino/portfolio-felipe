@@ -142,7 +142,7 @@ Cards con thumbnail superior, badge de contexto, descripción y tags de stack.
 Orden y data:
 
 1. Óptica Morea — optica-morea.vercel.app — Proyecto propio
-   Sitio web para óptica en Villa María. Anteojos, lentes y terapia visual. Desplegado en Vercel.
+   Sitio web para óptica en Villa María. Anteojos, lentes y terapia visual.
    Stack: Next.js · TypeScript · Tailwind · Vercel
 
 2. Rialto — rialto.ar — Custer · Solo front

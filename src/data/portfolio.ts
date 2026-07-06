@@ -1,3 +1,5 @@
+export type ProjectStatus = 'completed' | 'in-progress'
+
 export type Project = {
   id: string
   name: string
@@ -6,6 +8,7 @@ export type Project = {
   thumbnailUrl: string
   fallbackEmoji: string
   stack: string[]
+  status: ProjectStatus
 }
 
 export type SkillItem = {
@@ -32,22 +35,24 @@ export const projects: Project[] = [
   {
     id: 'optica-morea',
     name: 'Óptica Morea',
-    url: 'https://optica-morea.vercel.app',
+    url: 'https://opticamorea.com.ar/',
     context: 'Proyecto propio',
     thumbnailUrl:
       'https://image.thum.io/get/width/800/crop/500/noanimate/https://optica-morea.vercel.app',
     fallbackEmoji: '👓',
-    stack: ['Next.js', 'TypeScript', 'Tailwind', 'Vercel'],
+    stack: ['Next.js', 'TypeScript', 'Tailwind'],
+    status: 'completed',
   },
   {
-    id: 'rialto',
-    name: 'Rialto',
-    url: 'https://rialto.ar',
-    context: 'Custer · Solo front',
+    id: 'somos-su-voz',
+    name: 'Somos Su Voz',
+    url: 'https://somos-su-voz.vercel.app/',
+    context: 'Proyecto propio',
     thumbnailUrl:
-      'https://image.thum.io/get/width/800/crop/500/noanimate/https://rialto.ar',
-    fallbackEmoji: '🏨',
-    stack: ['React', 'CSS', 'Animaciones'],
+      'https://image.thum.io/get/width/800/crop/500/noanimate/https://somos-su-voz.vercel.app/',
+    fallbackEmoji: '🐶',
+    stack: ['Next.js', 'TypeScript', 'Tailwind'],
+    status: 'in-progress',
   },
   {
     id: 'clinica-maranon',
@@ -57,7 +62,8 @@ export const projects: Project[] = [
     thumbnailUrl:
       'https://image.thum.io/get/width/800/crop/500/noanimate/https://clinicamaranon.com',
     fallbackEmoji: '🏥',
-    stack: ['Next.js', 'React', 'Responsive'],
+    stack: ['Next.js', 'JavaScript', 'CSS'],
+    status: 'completed',
   },
   {
     id: 'ferreteria-garcia',
@@ -68,6 +74,7 @@ export const projects: Project[] = [
       'https://image.thum.io/get/width/800/crop/500/noanimate/https://garciadistribuidora.com.ar',
     fallbackEmoji: '🔧',
     stack: ['React', 'JavaScript', 'CSS'],
+    status: 'completed',
   },
   {
     id: 'ch-distribuidora',
@@ -78,16 +85,18 @@ export const projects: Project[] = [
       'https://image.thum.io/get/width/800/crop/500/noanimate/https://chdistribuidora.com.ar',
     fallbackEmoji: '📦',
     stack: ['React', 'JavaScript', 'CSS'],
+    status: 'completed',
   },
   {
     id: 'arlequin-cotillon',
     name: 'Arlequín Cotillón',
-    url: 'https://arlequin-cotillon.up.railway.app',
+    url: 'https://arlequinmayorista.com.ar/',
     context: 'Freelance',
     thumbnailUrl:
-      'https://image.thum.io/get/width/800/crop/500/noanimate/https://arlequin-cotillon.up.railway.app',
+      'https://image.thum.io/get/width/800/crop/500/noanimate/https://arlequinmayorista.com.ar',
     fallbackEmoji: '🎉',
-    stack: ['React', 'Railway', 'E-commerce'],
+    stack: ['React', 'CSS', 'E-commerce'],
+    status: 'completed',
   },
 ]
 
@@ -95,9 +104,9 @@ export const skills: SkillItem[] = [
   { name: 'React / Next.js', percent: 95 },
   { name: 'TypeScript', percent: 88 },
   { name: 'Claude API', percent: 80 },
-  { name: 'Node.js', percent: 75 },
-  { name: 'FastAPI', percent: 65 },
-  { name: 'PostgreSQL', percent: 60 },
+  { name: 'Node.js', percent: 60 },
+  { name: 'FastAPI', percent: 50 },
+  { name: 'PostgreSQL', percent: 40 },
 ]
 
 export const stackItems: StackItem[] = [

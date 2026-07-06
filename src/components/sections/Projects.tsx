@@ -50,6 +50,11 @@ export default function Projects() {
                 project={project}
                 description={descriptions[i] ?? ''}
                 visitLabel={t('visit')}
+                statusLabel={
+                  project.status === 'completed'
+                    ? t('status_completed')
+                    : t('status_in_progress')
+                }
               />
             </motion.div>
           ))}

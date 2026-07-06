@@ -71,12 +71,14 @@
     "label": "Projects",
     "title": "Selected work",
     "visit": "View project →",
+    "status_completed": "Completed",
+    "status_in_progress": "In progress",
     "items": [
       {
         "description": "Website for an optical store in Villa María. Eyeglasses, contact lenses and visual therapy. Deployed on Vercel."
       },
       {
-        "description": "Boutique hotel between mountains, valley and river. Landing page with immersive visual experience and elegant design."
+        "description": "Website donated to an animal rescue foundation. Lets people collaborate or adopt an animal. Currently in progress."
       },
       {
         "description": "Institutional website for a medical clinic. Specialties, medical coverage and online appointment system."

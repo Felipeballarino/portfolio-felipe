@@ -10,9 +10,15 @@ interface ProjectCardProps {
   project: Project
   description: string
   visitLabel: string
+  statusLabel: string
 }
 
-export default function ProjectCard({ project, description, visitLabel }: ProjectCardProps) {
+export default function ProjectCard({
+  project,
+  description,
+  visitLabel,
+  statusLabel,
+}: ProjectCardProps) {
   const [imgError, setImgError] = useState(false)
 
   return (
@@ -51,16 +57,26 @@ export default function ProjectCard({ project, description, visitLabel }: Projec
           </div>
         )}
 
-        {/* Context badge */}
-        <div className="absolute top-3 left-3">
+        {/* Badges */}
+        <div className="absolute top-3 left-3 right-3 flex items-center gap-2">
           <span
-            className="px-2 py-1 rounded-md text-xs font-medium backdrop-blur-sm"
+            className="px-2 py-1 rounded-md text-xs font-medium backdrop-blur-sm truncate"
             style={{
               backgroundColor: 'rgba(0,0,0,0.6)',
               color: '#ffffff',
             }}
           >
             {project.context}
+          </span>
+          <span
+            className="px-2 py-1 rounded-md text-xs font-medium backdrop-blur-sm shrink-0"
+            style={{
+              backgroundColor:
+                project.status === 'completed' ? 'rgba(34,197,94,0.85)' : 'rgba(250,204,21,0.9)',
+              color: project.status === 'completed' ? '#ffffff' : '#1a1a1a',
+            }}
+          >
+            {statusLabel}
           </span>
         </div>
       </div>

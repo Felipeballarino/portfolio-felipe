@@ -71,12 +71,14 @@
     "label": "Proyectos",
     "title": "Trabajo seleccionado",
     "visit": "Ver proyecto →",
+    "status_completed": "Terminado",
+    "status_in_progress": "En desarrollo",
     "items": [
       {
-        "description": "Sitio web para óptica en Villa María. Anteojos, lentes de contacto y terapia visual. Desplegado en Vercel."
+        "description": "Sitio web para óptica en Villa María. Anteojos, lentes de contacto y terapia visual."
       },
       {
-        "description": "Hotel boutique entre montañas, valle y río. Landing con experiencia visual inmersiva y diseño elegante."
+        "description": "Sitio web donado a una fundación rescatista de animales. Permite que la gente colabore o adopte un animalito. Actualmente en desarrollo."
       },
       {
         "description": "Sitio institucional para clínica médica. Especialidades, coberturas médicas y sistema de turnos online."
